@@ -32,9 +32,9 @@ public class BaseFunc {
         Select select = new Select(driver.findElement(locator));
         select.selectByVisibleText(text);
     }
-    public void click(){
+    public void click(By GO){
+    driver.findElement(GO).click();
+    }
 
     }
 
-
-}

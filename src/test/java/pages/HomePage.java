@@ -11,6 +11,10 @@ public class HomePage {
     private final By TO = By.xpath(".//select[@id='bfrom']");
     private final By GO = By.xpath(".//span[@class='gogogo']");
 
+    private final By LOGO1 = By.xpath(".//span[@class='ryan']");
+    private final By LOGO2 = By.xpath(".//span[@class='baltic']");
+    private final By MOTO = By.xpath(".//span[@class='moto']");
+
 
     public HomePage(BaseFunc baseFunc) { //konstruktor
         this.baseFunc = baseFunc;
@@ -23,7 +27,7 @@ public class HomePage {
         baseFunc.selectFromDropdown(TO, to);
     }
     public void clickGoGoBtn(){
-        baseFunc.click(GO,);
+        baseFunc.click(GO);
     }
 
         //Find WebElement
