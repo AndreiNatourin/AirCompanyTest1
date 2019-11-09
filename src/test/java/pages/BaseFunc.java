@@ -35,6 +35,13 @@ public class BaseFunc {
     public void click(By GO){
     driver.findElement(GO).click();
     }
+    public void click (By BOOK_FLIGHT) {
+        driver.findElement(BOOK_FLIGHT).click();
+    }
+
+    public void click(By BOOK_SEATS){
+        driver.findElement(BOOK_SEATS).click();
+    }
 
     }
 

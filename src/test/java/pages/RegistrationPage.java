@@ -12,6 +12,7 @@ public class RegistrationPage {
     private final By REG_CHILDREN = By.xpath(".//input[@id='children']");
     private final By REG_LUGGAGE = By.xpath(".//input[@id='bugs']");
     private final By REG_FLIGHT = By.xpath(".//select[@id='flight']");
+    private final By BOOK_FLIGHT = By.xpath(".//span[@id='book2']");
 
     public RegistrationPage(BaseFunc baseFunc) { //konstruktor
         this.baseFunc = baseFunc;

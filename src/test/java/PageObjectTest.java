@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 import pages.BaseFunc;
 import pages.HomePage;
+import pages.RegistrationPage;
 
 public class PageObjectTest {
 
@@ -13,5 +14,11 @@ public class PageObjectTest {
         HomePage homePage = new HomePage(baseFunc);
         homePage.selectFromAirport("RIX");
         homePage.selectToAirport("MEL");
+        homePage.clickGoGoBtn();
+
+        RegistrationPage registrationPage = new RegistrationPage(baseFunc);
+        //input data
+        //click book
+        registrationPage.clickBook();
     }
 }
