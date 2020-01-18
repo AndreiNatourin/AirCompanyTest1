@@ -9,7 +9,6 @@ public class AirCompanyTest {
 
     @Test
     public void airCmpanyTest() {
-
         BaseFunc baseFunc = new BaseFunc();
 
         baseFunc.goToUrl("http://qaguru.lv:8089/tickets/");

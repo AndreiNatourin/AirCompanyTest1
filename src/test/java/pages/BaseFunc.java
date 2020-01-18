@@ -20,8 +20,8 @@ public class BaseFunc {
     public void wait (By locator) {
        WebDriverWait wait = new WebDriverWait(driver, 5);
        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
-            
-           }
+       }
+
         public void goToUrl(String url) {
         if (url.startsWith("http://") || url.startsWith("https://")) {
 
